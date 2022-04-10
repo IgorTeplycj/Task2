@@ -196,5 +196,7 @@ namespace HTask2.Tests
                 //Assert.AreEqual(ex.Message, "Íåâîçìîæíî ïðî÷èòàòü çíà÷åíèå êîîðäèíàòû Y");
             }
         }
+
+        //test
     }
 }
