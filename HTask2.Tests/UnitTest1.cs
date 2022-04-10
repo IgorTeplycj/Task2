@@ -196,5 +196,7 @@ namespace HTask2.Tests
                 Assert.AreEqual(ex.Message, "Ќевозможно прочитать значение координаты Y");
             }
         }
+
+        //test
     }
 }
