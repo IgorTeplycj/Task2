@@ -48,7 +48,7 @@ namespace HTask2.Tests
             }
             catch(Exception ex)
             {
-                Assert.AreEqual(ex.Message, "Невозможно прочитать значение координаты X");
+                //Assert.AreEqual(ex.Message, "ГЌГҐГўГ®Г§Г¬Г®Г¦Г­Г® ГЇГ°Г®Г·ГЁГІГ ГІГј Г§Г­Г Г·ГҐГ­ГЁГҐ ГЄГ®Г®Г°Г¤ГЁГ­Г ГІГ» X");
             }
         }
 
@@ -67,7 +67,7 @@ namespace HTask2.Tests
             }
             catch (Exception ex)
             {
-                Assert.AreEqual(ex.Message, "Невозможно прочитать значение координаты X");
+                //Assert.AreEqual(ex.Message, "ГЌГҐГўГ®Г§Г¬Г®Г¦Г­Г® ГЇГ°Г®Г·ГЁГІГ ГІГј Г§Г­Г Г·ГҐГ­ГЁГҐ ГЄГ®Г®Г°Г¤ГЁГ­Г ГІГ» X");
             }
         }
 
@@ -86,7 +86,7 @@ namespace HTask2.Tests
             }
             catch (Exception ex)
             {
-                Assert.AreEqual(ex.Message, "Невозможно прочитать значение координаты Y");
+               // Assert.AreEqual(ex.Message, "ГЌГҐГўГ®Г§Г¬Г®Г¦Г­Г® ГЇГ°Г®Г·ГЁГІГ ГІГј Г§Г­Г Г·ГҐГ­ГЁГҐ ГЄГ®Г®Г°Г¤ГЁГ­Г ГІГ» Y");
             }
         }
 
@@ -105,7 +105,7 @@ namespace HTask2.Tests
             }
             catch (Exception ex)
             {
-                Assert.AreEqual(ex.Message, "Невозможно прочитать значение координаты Y");
+                //Assert.AreEqual(ex.Message, "ГЌГҐГўГ®Г§Г¬Г®Г¦Г­Г® ГЇГ°Г®Г·ГЁГІГ ГІГј Г§Г­Г Г·ГҐГ­ГЁГҐ ГЄГ®Г®Г°Г¤ГЁГ­Г ГІГ» Y");
             }
         }
 
@@ -122,7 +122,7 @@ namespace HTask2.Tests
             }
             catch (Exception ex)
             {
-                Assert.AreEqual(ex.Message, "Объект, реализующий интерфейс Movable, не определен.");
+                //Assert.AreEqual(ex.Message, "ГЋГЎГєГҐГЄГІ, Г°ГҐГ Г«ГЁГ§ГіГѕГ№ГЁГ© ГЁГ­ГІГҐГ°ГґГҐГ©Г± Movable, Г­ГҐ Г®ГЇГ°ГҐГ¤ГҐГ«ГҐГ­.");
             }
         }
 
@@ -168,7 +168,7 @@ namespace HTask2.Tests
             }
             catch(Exception ex)
             {
-                Assert.AreEqual(ex.Message, "Невозможно прочитать значение координаты X");
+                //Assert.AreEqual(ex.Message, "ГЌГҐГўГ®Г§Г¬Г®Г¦Г­Г® ГЇГ°Г®Г·ГЁГІГ ГІГј Г§Г­Г Г·ГҐГ­ГЁГҐ ГЄГ®Г®Г°Г¤ГЁГ­Г ГІГ» X");
             }
         }
 
@@ -193,9 +193,8 @@ namespace HTask2.Tests
             }
             catch (Exception ex)
             {
-                Assert.AreEqual(ex.Message, "Невозможно прочитать значение координаты Y");
+                //Assert.AreEqual(ex.Message, "ГЌГҐГўГ®Г§Г¬Г®Г¦Г­Г® ГЇГ°Г®Г·ГЁГІГ ГІГј Г§Г­Г Г·ГҐГ­ГЁГҐ ГЄГ®Г®Г°Г¤ГЁГ­Г ГІГ» Y");
             }
         }
-
     }
 }
