@@ -1,5 +1,7 @@
 ﻿using System;
-
+/// <summary>
+/// 
+/// </summary>
 namespace HTask2
 {
     class Program
