@@ -4,7 +4,9 @@ using HTask2.GameSolve.Structures;
 using HTask2.Tests.Mock;
 using NUnit.Framework;
 using System;
-
+/// <summary>
+/// 
+/// </summary>
 namespace HTask2.Tests
 {
     public class Tests
@@ -46,9 +48,9 @@ namespace HTask2.Tests
                 move.Execute();
                 Assert.Fail();
             }
-            catch(Exception ex)
+            catch
             {
-                //Assert.AreEqual(ex.Message, "Íåâîçìîæíî ïðî÷èòàòü çíà÷åíèå êîîðäèíàòû X");
+              
             }
         }
 
@@ -65,9 +67,9 @@ namespace HTask2.Tests
                 move.Execute();
                 Assert.Fail();
             }
-            catch (Exception ex)
+            catch
             {
-                //Assert.AreEqual(ex.Message, "Íåâîçìîæíî ïðî÷èòàòü çíà÷åíèå êîîðäèíàòû X");
+              
             }
         }
 
@@ -84,9 +86,9 @@ namespace HTask2.Tests
                 move.Execute();
                 Assert.Fail();
             }
-            catch (Exception ex)
+            catch
             {
-               // Assert.AreEqual(ex.Message, "Íåâîçìîæíî ïðî÷èòàòü çíà÷åíèå êîîðäèíàòû Y");
+              
             }
         }
 
@@ -103,9 +105,9 @@ namespace HTask2.Tests
                 move.Execute();
                 Assert.Fail();
             }
-            catch (Exception ex)
+            catch
             {
-                //Assert.AreEqual(ex.Message, "Íåâîçìîæíî ïðî÷èòàòü çíà÷åíèå êîîðäèíàòû Y");
+              
             }
         }
 
@@ -120,9 +122,9 @@ namespace HTask2.Tests
                 move.Execute();
                 Assert.Fail();
             }
-            catch (Exception ex)
+            catch
             {
-                //Assert.AreEqual(ex.Message, "Îáúåêò, ðåàëèçóþùèé èíòåðôåéñ Movable, íå îïðåäåëåí.");
+                
             }
         }
 
@@ -166,9 +168,9 @@ namespace HTask2.Tests
                 rot.Execute();
                 Assert.Fail();
             }
-            catch(Exception ex)
+            catch
             {
-                //Assert.AreEqual(ex.Message, "Íåâîçìîæíî ïðî÷èòàòü çíà÷åíèå êîîðäèíàòû X");
+                
             }
         }
 
@@ -191,12 +193,11 @@ namespace HTask2.Tests
                 rot.Execute();
                 Assert.Fail();
             }
-            catch (Exception ex)
+            catch
             {
-                //Assert.AreEqual(ex.Message, "Íåâîçìîæíî ïðî÷èòàòü çíà÷åíèå êîîðäèíàòû Y");
+               
             }
         }
 
-        //test
     }
 }
