@@ -50,7 +50,7 @@ namespace HTask2.Tests
             }
             catch
             {
-
+              
             }
         }
 
@@ -69,7 +69,7 @@ namespace HTask2.Tests
             }
             catch
             {
-
+              
             }
         }
 
@@ -88,7 +88,7 @@ namespace HTask2.Tests
             }
             catch
             {
-
+              
             }
         }
 
@@ -107,7 +107,7 @@ namespace HTask2.Tests
             }
             catch
             {
-
+              
             }
         }
 
@@ -124,7 +124,7 @@ namespace HTask2.Tests
             }
             catch
             {
-
+                
             }
         }
 
@@ -170,7 +170,7 @@ namespace HTask2.Tests
             }
             catch
             {
-
+                
             }
         }
 
@@ -195,7 +195,7 @@ namespace HTask2.Tests
             }
             catch
             {
-
+               
             }
         }
 
